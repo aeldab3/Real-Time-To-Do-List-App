@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real-Time To-Do List</title>
+  <link rel="stylesheet" href="/toDoList.css">
+</head>
+<body>
+  <h1>Real-Time To-Do List</h1>
+  <div id="userCount">Connected Users: 0</div>
+  <form id="taskForm">
+    <input type="text" id="taskInput" placeholder="Add a new task..." required />
+    <button type="submit">Add Task</button>
+  </form>
+  <ul id="tasks"></ul>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/toDoList.js"></script>
+</body>
+</html>

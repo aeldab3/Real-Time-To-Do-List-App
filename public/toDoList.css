@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  #userCount {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  #taskForm {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  #taskForm input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #taskForm button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #tasks {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  #tasks li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+
+  .actions button {
+    margin-left: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .delete {
+    background-color: #ff4d4d;
+    color: white;
+  }
+
+  .complete {
+    background-color: #28a745;
+    color: white;
+  }
